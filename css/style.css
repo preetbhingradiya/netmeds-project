@@ -50,6 +50,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.header-log span a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
 .header-log {
     display: flex;
     align-items: center;
