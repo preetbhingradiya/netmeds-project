@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- slider cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+
 </head>
+
 <body>
-    <h1>netmeds project</h1>
+    <header>
+        <div class="header-main">
+            <div class="header-line-1">
+                <div class="header-logo">
+                    <img src="./img/1663609483_netmeds-new-logo.svg" alt="">
+                </div>
+                <div class="header-serch">
+                    <input type="text" placeholder="Search for medicine & wellness products…">
+                </div>
+                <div class="blank"></div>
+                <div class="header-cart">
+                    <div class="header-log">
+                        <img src="./img/cart_icon.svg" alt="">
+                        <span>Cart</span>
+                    </div>
+                    <div class="header-log">
+                        <img src="./img/profile_icon.svg" alt="">
+                        <span>Sign In / Sign</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-line-2">
+                <div class="header-cat">
+                    <img src="./img/medicine.svg" alt="">
+                    <span>
+                        <a href="">
+                            Medicine
+                        </a>
+                    </span>
+                </div>
+                <div class="header-cat">
+                    <img src="./img/wellness.svg" alt="">
+                    <span>
+                        <a href="">
+                            Wellness
+                        </a>
+                    </span>
+                </div>
+                <div class="header-cat">
+                    <img src="./img/diagnostics.svg" alt="">
+                    <span>
+                        <a href="">
+                            Lab Tests
+                        </a>
+                    </span>
+                </div>
+                <div class="header-cat">
+                    <img src="./img/storefront.svg" alt="">
+                    <span>
+                        <a href="">
+                            Beauty <img src="./img/white-arrow-drop-down.svg" alt="">
+                        </a>
+                    </span>
+                </div>
+                <div class="header-cat">
+                    <img src="./img/health-library.svg" alt="">
+                    <span>
+                        <a href="">
+                            Health Corner <img src="./img/white-arrow-drop-down.svg" alt="">
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="cat-main">
+            <div>
+                <a href="">
+                    COVID Essentials
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Diabetes
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Veterinary
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Eyewear
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Ayush
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Ayurvedic
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Homeopathy
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Fitness
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Mom & Baby
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Devices
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Surgicals
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Sexual Wellness
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    Treatments
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="slider-main">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/1686395039_Web_Home-1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/1685719193_Web_Home_Bannerskkkk-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/1686577726_dabur-3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/1685719229_Web_Home_Bannersjjj-4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/1686830872_Wellness_webhealhhh-5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/1681404025_Web_Home_Bannerggr-6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
 </body>
+
+<!-- slider js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+
+
 </html>
