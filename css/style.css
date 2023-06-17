@@ -114,6 +114,23 @@ body {
     margin: 0 auto;
 }
 
+.ad-main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.ad-box {
+    width: 26%;
+}
+
+.ad-box a img {
+    border-radius: 5px;
+    width: 100%;
+}
+
 
 
 
